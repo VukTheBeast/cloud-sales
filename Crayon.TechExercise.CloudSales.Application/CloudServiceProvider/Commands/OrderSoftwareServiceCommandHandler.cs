@@ -15,9 +15,10 @@ namespace Crayon.TechExercise.CloudSales.Application.CloudServiceProvider.Comman
     {
         public async Task Handle(OrderSoftwareServiceCommand request, CancellationToken cancellationToken)
         {
-            if (!validator.Validate(request).IsValid) 
+            var validationResult = validator.Validate(request);
+            if (!validationResult.IsValid)
             {
-                return;
+                throw new ValidationException(validationResult.Errors);
             }
 
             var availableSoftwareListService = await ccpClient.GetSoftwareListAsync();
