@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crayon.TechExercise.CloudSa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8AD4DF1-9CDA-45C9-B117-E47262DACE5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crayon.TechExercise.CloudSales.Application.Tests", "Crayon.TechExercise.CloudSales.Application.Tests\Crayon.TechExercise.CloudSales.Application.Tests.csproj", "{57084FFE-CD24-45F7-B65D-99400854FF7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crayon.TechExercise.CloudSales.Application.Tests", "Crayon.TechExercise.CloudSales.Application.Tests\Crayon.TechExercise.CloudSales.Application.Tests.csproj", "{57084FFE-CD24-45F7-B65D-99400854FF7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
