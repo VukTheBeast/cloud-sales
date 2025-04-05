@@ -8,9 +8,10 @@ namespace Crayon.TechExercise.CloudSales.Application.PurchasedSoftware.Commands
     {
         public async Task Handle(ChangePurchasedSoftwareQuantityCommand request, CancellationToken cancellationToken)
         {
-            if(validator.Validate(request).IsValid) 
+            var validationResult = validator.Validate(request);
+            if (!validationResult.IsValid)
             {
-                return;
+                throw new ValidationException(validationResult.Errors);
             }
 
             await purchasedSoftwareRepository.UpdateQuantityAsync(request.id, request.newQuantity);
