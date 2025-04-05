@@ -1,0 +1,35 @@
+@Crayon.TechExercise.CloudSales.Api_HostAddress = https://localhost:44389
+
+###
+
+GET {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/accounts
+
+###
+
+GET {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/customers/accounts/0
+
+###
+
+GET {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/available
+
+###
+
+POST {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/available/order?accountId=0&softwareServiceId=0&quantity=0
+
+###
+
+GET {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/purchased?accountId=0
+
+###
+
+POST {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/purchased/cancel?id=0
+
+###
+
+POST {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/purchased/change-quantity?id=0&newQuantity=0
+
+###
+
+POST {{Crayon.TechExercise.CloudSales.Api_HostAddress}}/api/softwares/purchased/extend?id=0&newLicenseDate=2025-04-05T22%3A31%3A04.7054739%2B00%3A00
+
+###
