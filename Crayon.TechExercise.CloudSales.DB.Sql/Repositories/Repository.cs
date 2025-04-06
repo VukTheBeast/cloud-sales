@@ -1,4 +1,4 @@
-﻿using Crayon.TechExercise.CloudSales.Application.Repositories;
+﻿using Crayon.TechExercise.CloudSales.Application.Common;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

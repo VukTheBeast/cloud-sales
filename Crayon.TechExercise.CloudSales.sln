@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8AD4DF1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crayon.TechExercise.CloudSales.Application.Tests", "Tests\Crayon.TechExercise.CloudSales.Application.Tests\Crayon.TechExercise.CloudSales.Application.Tests.csproj", "{0C2F0AE6-9A8D-411E-9261-92B31B24E86F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crayon.TechExercise.CloudSales.Infrastructure.Tests", "Tests\Crayon.TechExercise.CloudSales.Infrastructure.Tests\Crayon.TechExercise.CloudSales.Infrastructure.Tests.csproj", "{32F80267-1A72-4111-B37A-AE4759921CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,12 +49,17 @@ Global
 		{0C2F0AE6-9A8D-411E-9261-92B31B24E86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C2F0AE6-9A8D-411E-9261-92B31B24E86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C2F0AE6-9A8D-411E-9261-92B31B24E86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F80267-1A72-4111-B37A-AE4759921CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F80267-1A72-4111-B37A-AE4759921CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F80267-1A72-4111-B37A-AE4759921CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F80267-1A72-4111-B37A-AE4759921CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C2F0AE6-9A8D-411E-9261-92B31B24E86F} = {D8AD4DF1-9CDA-45C9-B117-E47262DACE5A}
+		{32F80267-1A72-4111-B37A-AE4759921CAC} = {D8AD4DF1-9CDA-45C9-B117-E47262DACE5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3EFB361-339F-47F6-9F2E-70A1BD366114}

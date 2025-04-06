@@ -1,7 +1,7 @@
 ﻿using Crayon.TechExercise.CloudSales.Application.Account;
 using Crayon.TechExercise.CloudSales.Application.Customer;
 using Crayon.TechExercise.CloudSales.Application.PurchasedSoftware;
-using Crayon.TechExercise.CloudSales.Application.Repositories;
+using Crayon.TechExercise.CloudSales.Application.Common;
 using Crayon.TechExercise.CloudSales.DB.Sql.MappingProfiles;
 using Crayon.TechExercise.CloudSales.DB.Sql.Repositories;
 using Microsoft.EntityFrameworkCore;

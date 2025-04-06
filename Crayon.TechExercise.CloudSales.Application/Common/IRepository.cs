@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Crayon.TechExercise.CloudSales.Application.Repositories;
+namespace Crayon.TechExercise.CloudSales.Application.Common;
 
 public interface IRepository<TEntity> where TEntity : class
 {
