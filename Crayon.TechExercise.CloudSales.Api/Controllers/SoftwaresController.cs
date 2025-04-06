@@ -58,7 +58,7 @@ namespace Crayon.TechExercise.CloudSales.Api.Controllers
             return Ok(mapper.Map<IEnumerable<PurchasedSoftwareResponse>>(result));
         }
 
-        [HttpPost("purchased/change-quantity")]
+        [HttpPatch("purchased/change-quantity")]
         public async Task<IActionResult> ChangeQuantity(int id, int newQuantity)
         {
             try
@@ -74,7 +74,7 @@ namespace Crayon.TechExercise.CloudSales.Api.Controllers
             return Ok();
         }
 
-        [HttpPost("purchased/cancel")]
+        [HttpPatch("purchased/cancel")]
         public async Task<IActionResult> Cancel(int id)
         {
             try
@@ -90,7 +90,7 @@ namespace Crayon.TechExercise.CloudSales.Api.Controllers
             return Ok();
         }
 
-        [HttpPost("purchased/extend")]
+        [HttpPatch("purchased/extend")]
         public async Task<IActionResult> Extend(int id, DateTime newLicenseDate)
         {
             try

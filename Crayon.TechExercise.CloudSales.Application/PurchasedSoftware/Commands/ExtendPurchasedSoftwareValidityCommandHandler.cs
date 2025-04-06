@@ -9,6 +9,7 @@ namespace Crayon.TechExercise.CloudSales.Application.PurchasedSoftware.Commands
         {
             var purchasedSoftware = await purchasedSoftwareRepository.GetById(request.id);
 
+            // todo: Improvements -> use Result pattern, should not throw exception if it is application logic flow
             if (purchasedSoftware == null) 
             {
                 throw new NullReferenceException(nameof(purchasedSoftware));

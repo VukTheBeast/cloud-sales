@@ -7,6 +7,7 @@ public class CancelPurchasedSoftwareCommandHandler(IPurchasedSoftwareRepository 
 {
     public async Task Handle(CancelPurchasedSoftwareCommand request, CancellationToken cancellationToken)
     {
+        // todo: imrovements (pass cancellation token to repository)
         await purchasedSoftwareRepository.UpdateStatusAsync(request.id, Domain.SoftwareState.Canceled);
     }
 }

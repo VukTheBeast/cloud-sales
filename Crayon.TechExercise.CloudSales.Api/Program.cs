@@ -1,7 +1,6 @@
 using Crayon.TechExercise.CloudSales.Application;
 using Crayon.TechExercise.CloudSales.Infrastructure;
 using Crayon.TechExercise.CloudSales.DB.Sql;
-using Crayon.TechExercise.CloudSales.Infrastructure.Configuration;
 using Crayon.TechExercise.CloudSales.DB.Sql.SeedData;
 
 namespace Crayon.TechExercise.CloudSales.Api;
