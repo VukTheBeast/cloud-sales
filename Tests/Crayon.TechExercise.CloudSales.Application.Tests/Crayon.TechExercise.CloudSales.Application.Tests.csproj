@@ -16,12 +16,7 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Crayon.TechExercise.CloudSales.Application\Crayon.TechExercise.CloudSales.Application.csproj" />
-    <ProjectReference Include="..\Crayon.TechExercise.CloudSales.Domain\Crayon.TechExercise.CloudSales.Domain.csproj" />
-    <ProjectReference Include="..\Crayon.TechExercise.CloudSales.Infrastructure\Crayon.TechExercise.CloudSales.Infrastructure.csproj" />
+    <PackageReference Include="Shouldly" Version="4.3.0" />
   </ItemGroup>
 
 </Project>
