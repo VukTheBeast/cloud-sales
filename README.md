@@ -29,7 +29,7 @@ The project consists of the following layers:
 This project is built following the **Clean Architecture** and **SOLID principles**, specifically embracing the **Dependency Inversion Principle**. The goal is to achieve a system with:
 
 <p align="center">
-  <img src="https://jkphl.is/fileadmin/images/blog/clear-architecture/clear-architecture-dependency-rule.svg" alt="Onion Architecture Diagram" />
+  <img src="https://jkphl.is/fileadmin/images/blog/clear-architecture/clear-architecture-domain-application-client-tiers.svg" alt="Onion Architecture Diagram" />
 </p>
 
 - **High maintainability**: Business rules are isolated from external concerns.
