@@ -39,7 +39,10 @@ This project is built following the **Clean Architecture** and **SOLID principle
 The separation of concerns is achieved through:
 - Interfaces and abstractions in the Application layer.
 - Dependency Injection to wire up implementations at runtime.
-- Inversion of Control to make high-level modules independent of low-level modules.
+- Inversion of Control to make high-level modules independent of low-level modules (image bellow).
+  
+  ![image](https://github.com/user-attachments/assets/0bbbf489-8407-4f74-845e-f8690d65108d)
+
 
 This design is inspired by:
 - [Uncle Bob’s Clean Architecture](https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html)
