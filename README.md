@@ -44,6 +44,8 @@ The separation of concerns is achieved through:
 This design is inspired by:
 - [Uncle Bob’s Clean Architecture](https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html)
 - [Clear Architecture in PHP by jkphl](https://jkphl.is/articles/clear-architecture-php/)
+- [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+- [CQRS](https://martinfowler.com/bliki/CQRS.html)
 
 
 ---
