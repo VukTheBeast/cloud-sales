@@ -9,8 +9,8 @@ Crayon CloudSales is a sample api-based application designed to demonstrate clou
 The project consists of the following layers:
 
 - **Application Layer**: Contains business logic, command/query handlers, validation, and service interfaces.
-- **Infrastructure Layer**: Includes integrations with external services (e.g., CCP), data access via Entity Framework Core, and configuration settings.
-- **Persistence Layer**: Manages database-related concerns like migrations and entity configurations.
+- **Infrastructure Layer**: Includes integrations with external services (e.g., CCP)
+- **Persistence Layer**: Manages database-related concerns like migrations and entity configurations, data access via Entity Framework Core.
 - **Web API Layer**: The entry point for the application, exposing endpoints for account operations and software purchasing.
 
 ---
